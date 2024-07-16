@@ -18,7 +18,7 @@ class _LangugeTranslateState extends State<LangugeTranslate> {
     'Tamil',
     'Thai',
     'Kannada',
-    'Kashmiri'
+    // 'Kashmiri'
   ];
   var originLanguage = "From";
   var translateLanguge = "TO";
@@ -55,9 +55,10 @@ class _LangugeTranslateState extends State<LangugeTranslate> {
       return "th";
     } else if (lang == "Kannada") {
       return "kn";
-    } else if (lang == "Kashmiri") {
-      return "ks";
     }
+    // else if (lang == "Kashmiri") {
+    //   return "ks";
+    // }
     return '--';
   }
 
